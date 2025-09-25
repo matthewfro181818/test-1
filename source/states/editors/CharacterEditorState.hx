@@ -18,6 +18,7 @@ import states.editors.content.PsychJsonPrinter;
 import swf.exporters.swflite.SWFLite;
 import swf.exporters.swflite.SWFLiteLibrary;
 import swf.exporters.swflite.SpriteSymbol;
+import swf.SWFRoot;
 
 typedef AnimateAtlas = Dynamic;
 
@@ -294,11 +295,11 @@ class CharacterEditorState extends MusicBeatState implements PsychUIEventHandler
 							var swfLite = new SWFLite();
 							#end
 							#if openfl_swf
-							var root:SWFRoot = new SWFRoot(swfLite);
+							var root:SWFRoot = new SWFRoot();
 							#end
 							#if openfl_swf
 							#if openfl_swf
-							var root = new SWFRoot(swfLite);
+							var root = new SWFRoot();
                             swfGhost = new MovieClip();
 							#end
 							#end
