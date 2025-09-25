@@ -1,5 +1,8 @@
 package backend;
 
+import openfl.display.Sprite;
+import openfl.media.Sound;
+
 import flixel.graphics.frames.FlxFrame.FlxFrameAngle;
 import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.graphics.FlxGraphic;
@@ -135,7 +138,7 @@ class Paths
 		}
 	}
 
-	inline static function destroyGraphic(graphic:FlxGraphic)
+	static function destroyGraphic(graphic:FlxGraphic)
 	{
 		// free some gpu memory
 		if (graphic != null && graphic.bitmap != null && graphic.bitmap.__texture != null)
