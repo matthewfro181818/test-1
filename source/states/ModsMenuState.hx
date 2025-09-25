@@ -2,23 +2,18 @@ package states;
 
 import backend.WeekData;
 import backend.Mods;
+
 import flixel.FlxBasic;
 import flixel.graphics.FlxGraphic;
 import flash.geom.Rectangle;
 import haxe.Json;
+
 import flixel.util.FlxSpriteUtil;
 import objects.AttachedSprite;
 import options.ModSettingsSubState;
+
 import openfl.display.BitmapData;
 import lime.utils.Assets;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
-
-
 
 class ModsMenuState extends MusicBeatState
 {

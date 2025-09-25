@@ -4,13 +4,8 @@ import backend.StageData;
 import objects.Character;
 import objects.Bar;
 import flixel.addons.display.shapes.FlxShapeCircle;
+
 import states.stages.StageWeek1 as BackgroundStage;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
 
 class NoteOffsetState extends MusicBeatState
 {

@@ -1,10 +1,5 @@
 package objects;
 
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 class MenuItem extends FlxSprite
 {
 	public var targetY:Float = 0;

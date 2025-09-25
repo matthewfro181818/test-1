@@ -1,10 +1,5 @@
 package psychlua;
 
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 class TextFunctions
 {
 	public static function implement(funk:FunkinLua)

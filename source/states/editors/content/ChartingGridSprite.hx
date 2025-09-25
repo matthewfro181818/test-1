@@ -1,11 +1,6 @@
 package states.editors.content;
 
 import flixel.addons.display.FlxGridOverlay;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 // Laggier than a single sprite for the grid, but this is to avoid having to re-create the sprite constantly
 class ChartingGridSprite extends FlxSprite

@@ -3,16 +3,11 @@ package psychlua;
 import backend.WeekData;
 import objects.Character;
 import backend.StageData;
+
 import openfl.display.BlendMode;
 import Type.ValueType;
+
 import substates.GameOverSubstate;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
-
 
 typedef LuaTweenOptions = {
 	type:FlxTweenType,

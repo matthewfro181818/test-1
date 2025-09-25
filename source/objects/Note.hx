@@ -2,18 +2,13 @@ package objects;
 
 import backend.animation.PsychAnimationController;
 import backend.NoteTypesConfig;
+
 import shaders.RGBPalette;
 import shaders.RGBPalette.RGBShaderReference;
+
 import objects.StrumNote;
+
 import flixel.math.FlxRect;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
-
-
 
 using StringTools;
 

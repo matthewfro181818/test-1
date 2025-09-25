@@ -1,6 +1,7 @@
 package states.editors;
 
 import backend.WeekData;
+
 import openfl.utils.Assets;
 import openfl.net.FileReference;
 import openfl.events.Event;
@@ -8,19 +9,13 @@ import openfl.events.IOErrorEvent;
 import flash.net.FileFilter;
 import lime.system.Clipboard;
 import haxe.Json;
+
 import objects.HealthIcon;
 import objects.MenuCharacter;
 import objects.MenuItem;
+
 import states.editors.MasterEditorMenu;
 import states.editors.content.Prompt;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
-
-
 
 class WeekEditorState extends MusicBeatState implements PsychUIEventHandler.PsychUIEvent
 {

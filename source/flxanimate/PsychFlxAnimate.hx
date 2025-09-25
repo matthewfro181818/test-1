@@ -5,14 +5,8 @@ import flixel.system.FlxAssets.FlxGraphicAsset;
 import flxanimate.frames.FlxAnimateFrames;
 import flxanimate.data.AnimationData;
 import flxanimate.FlxAnimate as OriginalFlxAnimate;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
 
-typedef AnimAtlas = Dynamic;
-
-
-class PsychFlxAnimate extends FlxAnimate
+class PsychFlxAnimate extends OriginalFlxAnimate
 {
 	public function loadAtlasEx(img:FlxGraphicAsset, pathOrStr:String = null, myJson:Dynamic = null)
 	{

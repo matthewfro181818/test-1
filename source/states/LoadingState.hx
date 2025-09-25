@@ -10,30 +10,24 @@ import openfl.utils.Assets as OpenFlAssets;
 import flixel.graphics.FlxGraphic;
 import flixel.system.FlxAssets;
 import flixel.FlxState;
+
 import flash.media.Sound;
+
 import backend.Song;
 import backend.StageData;
 import objects.Character;
+
 import sys.thread.Thread;
 import sys.thread.Mutex;
+
 import objects.Note;
 import objects.NoteSplash;
+
+#if HSCRIPT_ALLOWED
 import psychlua.HScript;
 import crowplexus.iris.Iris;
 import crowplexus.hscript.Expr.Error as IrisError;
 import crowplexus.hscript.Printer;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-typedef AnimateAtlas = Dynamic;
-
-
-
-
-
-
-#if HSCRIPT_ALLOWED
 #end
 
 #if cpp

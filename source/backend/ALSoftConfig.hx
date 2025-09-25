@@ -1,11 +1,6 @@
 package backend;
 
 import haxe.io.Path;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 /*
 A class that simply points OpenALSoft to a custom configuration file when the game starts up.

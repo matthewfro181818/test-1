@@ -2,21 +2,16 @@ package states.stages;
 
 import openfl.filters.ShaderFilter;
 import shaders.RainShader;
+
 import flixel.addons.display.FlxTiledSprite;
 import flixel.graphics.frames.FlxAtlasFrames;
+
 import substates.GameOverSubstate;
 import states.stages.objects.*;
+
 import objects.Note;
+
 import cutscenes.CutsceneHandler;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
-
-
-
 
 enum NeneState
 {

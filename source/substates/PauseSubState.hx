@@ -3,17 +3,12 @@ package substates;
 import backend.WeekData;
 import backend.Highscore;
 import backend.Song;
+
 import flixel.util.FlxStringUtil;
+
 import states.StoryMenuState;
 import states.FreeplayState;
 import options.OptionsState;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
-
 
 class PauseSubState extends MusicBeatSubstate
 {

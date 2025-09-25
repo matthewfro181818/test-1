@@ -1,10 +1,5 @@
 package objects;
 
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 class HealthIcon extends FlxSprite
 {
 	public var sprTracker:FlxSprite;

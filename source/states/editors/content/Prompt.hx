@@ -1,11 +1,6 @@
 package states.editors.content;
 
 import flixel.util.FlxDestroyUtil;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 // Exit confirmation prompt used on all editors, for convenience
 class ExitConfirmationPrompt extends Prompt

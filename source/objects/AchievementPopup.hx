@@ -1,15 +1,10 @@
 package objects;
 
+#if ACHIEVEMENTS_ALLOWED
 import openfl.events.Event;
 import openfl.geom.Matrix;
 import flash.display.BitmapData;
 import openfl.Lib;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-#if ACHIEVEMENTS_ALLOWED
 
 class AchievementPopup extends openfl.display.Sprite {
 	public var onFinish:Void->Void = null;

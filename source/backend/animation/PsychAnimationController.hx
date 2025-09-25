@@ -1,11 +1,6 @@
 package backend.animation;
 
 import flixel.animation.FlxAnimationController;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 class PsychAnimationController extends FlxAnimationController {
     public var followGlobalSpeed:Bool = true;

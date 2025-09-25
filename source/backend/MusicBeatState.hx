@@ -2,11 +2,6 @@ package backend;
 
 import flixel.FlxState;
 import backend.PsychCamera;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 class MusicBeatState extends FlxState
 {

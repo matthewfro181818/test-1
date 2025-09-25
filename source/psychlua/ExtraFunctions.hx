@@ -2,11 +2,6 @@ package psychlua;
 
 import flixel.util.FlxSave;
 import openfl.utils.Assets;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 //
 // Things to trivialize some dumb stuff like splitting strings on older Lua

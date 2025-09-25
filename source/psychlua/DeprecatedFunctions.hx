@@ -1,10 +1,5 @@
 package psychlua;
 
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 //
 // This is simply where i store deprecated functions for it to be more organized.
 // I would suggest not messing with these, as it could break mods.

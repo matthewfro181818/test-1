@@ -1,11 +1,6 @@
 package objects;
 
 import flixel.math.FlxRect;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 class Bar extends FlxSpriteGroup
 {

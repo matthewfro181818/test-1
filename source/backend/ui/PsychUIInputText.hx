@@ -5,11 +5,6 @@ import flixel.input.keyboard.FlxKey;
 import flixel.util.FlxDestroyUtil;
 import flash.events.KeyboardEvent;
 import lime.system.Clipboard;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 enum abstract AccentCode(Int) from Int from UInt to Int to UInt
 {

@@ -4,12 +4,6 @@ import states.stages.objects.*;
 import cutscenes.CutsceneHandler;
 import substates.GameOverSubstate;
 import objects.Character;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-typedef AnimateAtlas = Dynamic;
-
 
 class Tank extends BaseStage
 {

@@ -1,10 +1,6 @@
-import flixel.FlxState;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
 package;
 
+import flixel.FlxState;
 
 class LatencyState extends FlxState
 {

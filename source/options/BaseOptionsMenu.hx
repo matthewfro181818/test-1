@@ -4,16 +4,11 @@ import flixel.input.keyboard.FlxKey;
 import flixel.input.gamepad.FlxGamepad;
 import flixel.input.gamepad.FlxGamepadInputID;
 import flixel.input.gamepad.FlxGamepadManager;
+
 import objects.CheckboxThingie;
 import objects.AttachedText;
 import options.Option;
 import backend.InputFormatter;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
 
 class BaseOptionsMenu extends MusicBeatSubstate
 {

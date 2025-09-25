@@ -3,11 +3,6 @@ package objects;
 import backend.animation.PsychAnimationController;
 import shaders.RGBPalette;
 import flixel.system.FlxAssets.FlxShader;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 typedef RGB = {
 	r:Null<Int>,

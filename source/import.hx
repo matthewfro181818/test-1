@@ -1,10 +1,26 @@
+#if !macro
+//Discord API
+#if DISCORD_ALLOWED
 import backend.Discord;
+#end
+
+//Psych
+#if LUA_ALLOWED
 import llua.*;
 import llua.Lua;
+#end
+
+#if ACHIEVEMENTS_ALLOWED
 import backend.Achievements;
+#end
+
+#if sys
 import sys.*;
 import sys.io.*;
+#elseif js
 import js.html.*;
+#end
+
 import backend.Paths;
 import backend.Controls;
 import backend.CoolUtil;
@@ -17,13 +33,21 @@ import backend.BaseStage;
 import backend.Difficulty;
 import backend.Mods;
 import backend.Language;
+
 import backend.ui.*; //Psych-UI
+
 import objects.Alphabet;
 import objects.BGSprite;
+
 import states.PlayState;
 import states.LoadingState;
+
+#if flxanimate
 import flxanimate.*;
 import flxanimate.PsychFlxAnimate as FlxAnimate;
+#end
+
+//Flixel
 import flixel.sound.FlxSound;
 import flixel.FlxG;
 import flixel.FlxSprite;
@@ -38,34 +62,6 @@ import flixel.tweens.FlxTween;
 import flixel.group.FlxSpriteGroup;
 import flixel.group.FlxGroup.FlxTypedGroup;
 import flixel.addons.transition.FlxTransitionableState;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-#if !macro
-//Discord API
-#if DISCORD_ALLOWED
-#end
-
-//Psych
-#if LUA_ALLOWED
-#end
-
-#if ACHIEVEMENTS_ALLOWED
-#end
-
-#if sys
-#elseif js
-#end
-
-
-
-
-
-#if flxanimate
-#end
-
-//Flixel
 
 using StringTools;
 #end

@@ -2,18 +2,13 @@ package states.stages;
 
 import openfl.filters.ShaderFilter;
 import shaders.RainShader;
+
 import flixel.addons.transition.FlxTransitionableState;
 import flixel.addons.display.FlxTiledSprite;
+
 import substates.GameOverSubstate;
 import states.stages.objects.*;
 import objects.Note;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
-
 
 class PhillyBlazin extends BaseStage
 {

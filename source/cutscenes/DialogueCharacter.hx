@@ -2,11 +2,6 @@ package cutscenes;
 
 import haxe.Json;
 import lime.utils.Assets;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 typedef DialogueAnimArray = {
 	var anim:String;

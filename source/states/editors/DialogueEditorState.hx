@@ -5,17 +5,12 @@ import openfl.events.Event;
 import openfl.events.IOErrorEvent;
 import flash.net.FileFilter;
 import haxe.Json;
+
 import objects.TypedAlphabet;
+
 import cutscenes.DialogueBoxPsych;
 import cutscenes.DialogueCharacter;
 import states.editors.content.Prompt;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
-
 
 class DialogueEditorState extends MusicBeatState implements PsychUIEventHandler.PsychUIEvent
 {

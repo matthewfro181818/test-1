@@ -1,10 +1,6 @@
 import faxe.Faxe;
+
 import SndTV;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 //praise delahee, i'll figure out what this shit means later!
 

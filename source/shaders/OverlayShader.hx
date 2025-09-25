@@ -1,11 +1,6 @@
 package shaders;
 
 import flixel.system.FlxAssets.FlxShader;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 class OverlayShader extends FlxShader
 {

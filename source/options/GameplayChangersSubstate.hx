@@ -2,13 +2,8 @@ package options;
 
 import objects.AttachedText;
 import objects.CheckboxThingie;
+
 import options.Option.OptionType;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
 
 class GameplayChangersSubstate extends MusicBeatSubstate
 {

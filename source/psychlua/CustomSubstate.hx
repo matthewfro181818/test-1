@@ -1,11 +1,6 @@
 package psychlua;
 
 import flixel.FlxObject;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 class CustomSubstate extends MusicBeatSubstate
 {

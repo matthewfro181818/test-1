@@ -1,10 +1,5 @@
 package backend;
 
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 // PsychCamera handles followLerp based on elapsed
 // and stops camera from snapping at higher framerates
 

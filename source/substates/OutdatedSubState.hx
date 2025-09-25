@@ -2,14 +2,9 @@ package substates;
 
 import flixel.tweens.FlxTween;
 import flixel.tweens.FlxEase;
+
 import states.MainMenuState;
 import states.TitleState;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
 
 class OutdatedSubState extends MusicBeatSubstate
 {

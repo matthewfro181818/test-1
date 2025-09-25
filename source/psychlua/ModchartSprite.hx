@@ -1,10 +1,5 @@
 package psychlua;
 
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 class ModchartSprite extends FlxSprite
 {
 	public var animOffsets:Map<String, Array<Float>> = new Map<String, Array<Float>>();

@@ -2,15 +2,10 @@ package options;
 
 import flixel.input.keyboard.FlxKey;
 import flixel.input.gamepad.FlxGamepadInputID;
+
 import objects.Character;
+
 import options.Option.OptionType;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
-
 
 class ModSettingsSubState extends BaseOptionsMenu
 {

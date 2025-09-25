@@ -1,11 +1,6 @@
 package backend.ui;
 
 import backend.ui.PsychUIBox.UIStyleData;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 class PsychUIDropDownMenu extends PsychUIInputText
 {

@@ -4,11 +4,6 @@ import openfl.utils.Assets;
 import haxe.Json;
 import backend.Song;
 import psychlua.ModchartSprite;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 typedef StageFile = {
 	var directory:String;

@@ -1,10 +1,5 @@
 package backend;
 
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 class Language
 {
 	public static var defaultLangName:String = 'English (US)'; //en-US

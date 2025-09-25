@@ -2,13 +2,8 @@ package psychlua;
 
 import Type.ValueType;
 import haxe.Constraints;
+
 import substates.GameOverSubstate;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
 
 //
 // Functions that use a high amount of Reflections, which are somewhat CPU intensive

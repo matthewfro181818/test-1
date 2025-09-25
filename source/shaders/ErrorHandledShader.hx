@@ -4,11 +4,6 @@ import flixel.system.FlxAssets.FlxShader;
 import flixel.addons.display.FlxRuntimeShader;
 import lime.graphics.opengl.GLProgram;
 import lime.app.Application;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
 
 class ErrorHandledShader extends FlxShader implements IErrorHandler
 {

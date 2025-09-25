@@ -3,24 +3,19 @@ package states;
 import backend.WeekData;
 import backend.Highscore;
 import backend.Song;
+
 import objects.HealthIcon;
 import objects.MusicPlayer;
+
 import options.GameplayChangersSubstate;
 import substates.ResetScoreSubState;
+
 import flixel.math.FlxMath;
 import flixel.util.FlxDestroyUtil;
+
 import openfl.utils.Assets;
+
 import haxe.Json;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-
-
-
-
-
-
 
 class FreeplayState extends MusicBeatState
 {
