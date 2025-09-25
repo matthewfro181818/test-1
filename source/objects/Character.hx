@@ -304,7 +304,7 @@ class Character extends FlxSprite
 					#end
 					{
 						// Normal AnimateAtlas folder (Animation.json / spritemap*.json + png)
-						if (isPaused) atlas.anim.pause(); else atlas.anim.resume();
+						if (paused) atlas.anim.pause(); else atlas.anim.resume();
 					}
 				}
 				catch(e:haxe.Exception)
@@ -517,7 +517,7 @@ class Character extends FlxSprite
 	private function get_animPaused():Bool
 	{
 		if(isAnimationNull()) return false;
-		if (isSwf) return !swfMC.currentFrame >= 0;
+		if (isSwf) return swfMC.currentFrame >= 0;
 		#if flxanimate
 		return !isAnimateAtlas ? animation.curAnim.paused : !atlas.anim.isPlaying;
 		#else
@@ -529,7 +529,7 @@ class Character extends FlxSprite
 		if(isAnimationNull()) return value;
 		if (isSwf)
 		{
-			if (isPaused) swfMC.stop(); else swfMC.play();
+			if (paused) swfMC.stop(); else swfMC.play();
 			return value;
 		}
 		#if flxanimate

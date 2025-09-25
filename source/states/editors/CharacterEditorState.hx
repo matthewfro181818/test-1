@@ -13,10 +13,10 @@ import objects.Character;
 import objects.HealthIcon;
 import objects.Bar;
 // SWF playback support
-import swf.SWFRoot;
-import swf.exporters.swflite.SWFLite;
+
+import swf.exporters.swflite.SWFLiteLibrary;
 import openfl.display.MovieClip;
-import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
 import states.editors.content.Prompt;
 import states.editors.content.PsychJsonPrinter;
 
