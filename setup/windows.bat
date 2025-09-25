@@ -19,7 +19,7 @@ haxelib install format
 haxelib install tink_core
 haxelib install tink_macro
 haxelib git openfl-swf https://github.com/openfl/swf 464711deb77137f5d8a0f28d56c371e498edbf96
-haxelib git flxanimate https://github.com/Dot-Stuff/flxanimate 768740a56b26aa0c072720e0d1236b94afe68e3e
+haxelib git flxanimate https://github.com/matthewfro181818/flxanimate
 haxelib git linc_luajit https://github.com/superpowers04/linc_luajit 1906c4a96f6bb6df66562b3f24c62f4c5bba14a7
 haxelib git funkin.vis https://github.com/FunkinCrew/funkVis 22b1ce089dd924f15cdc4632397ef3504d464e90
 haxelib git grig.audio https://gitlab.com/haxe-grig/grig.audio.git cbf91e2180fd2e374924fe74844086aab7891666
