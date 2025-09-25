@@ -1,5 +1,10 @@
 package objects;
 
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 class TypedAlphabet extends Alphabet
 {
 	public var onFinish:Void->Void = null;

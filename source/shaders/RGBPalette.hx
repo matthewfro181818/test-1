@@ -2,6 +2,11 @@ package shaders;
 
 import flixel.system.FlxAssets.FlxShader;
 import objects.Note;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 
 class RGBPalette {
 	public var shader(default, null):RGBPaletteShader = new RGBPaletteShader();

@@ -1,38 +1,44 @@
 package objects;
 
 import openfl.display.Sprite;
-
 import backend.animation.PsychAnimationController;
-
 import flixel.util.FlxSort;
 import flixel.util.FlxDestroyUtil;
-
 import flixel.FlxSprite;
 import flixel.text.FlxText;
 import flixel.util.FlxColor;
 import flixel.FlxG;
-
 import openfl.utils.AssetType;
 import openfl.utils.Assets;
 import openfl.display.MovieClip;
 import openfl.geom.Rectangle;
 import openfl.geom.Matrix;
 import openfl.display.BitmapData;
-
 import haxe.Json;
-
 import backend.Song;
 import states.stages.objects.TankmenBG;
-
-#if sys
 import sys.io.File;
 import sys.FileSystem;
 import haxe.zip.Reader;
 import haxe.io.BytesInput;
+import flxanimate.FlxAnimate;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+typedef AnimateAtlas = Dynamic;
+
+
+
+
+
+
+
+
+#if sys
 #end
 
 #if flxanimate
-import flxanimate.FlxAnimate;
 #end
 
 typedef CharacterFile = {

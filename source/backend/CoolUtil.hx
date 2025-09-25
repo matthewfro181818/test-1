@@ -2,6 +2,11 @@ package backend;
 
 import openfl.utils.Assets;
 import lime.utils.Assets as LimeAssets;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 
 class CoolUtil
 {

@@ -5,11 +5,16 @@ import openfl.events.Event;
 import openfl.events.IOErrorEvent;
 import flash.net.FileFilter;
 import haxe.Json;
-
 import objects.MenuCharacter;
-
 import states.editors.content.Prompt;
 import states.editors.content.PsychJsonPrinter;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
+
 
 class MenuCharacterEditorState extends MusicBeatState implements PsychUIEventHandler.PsychUIEvent
 {

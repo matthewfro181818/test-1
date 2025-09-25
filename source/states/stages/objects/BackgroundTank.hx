@@ -1,5 +1,10 @@
 package states.stages.objects;
 
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 class BackgroundTank extends BGSprite
 {
 	public var offsetX:Float = 400;

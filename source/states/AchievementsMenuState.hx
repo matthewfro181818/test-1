@@ -3,6 +3,11 @@ package states;
 import flixel.FlxObject;
 import flixel.util.FlxSort;
 import objects.Bar;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 
 #if ACHIEVEMENTS_ALLOWED
 class AchievementsMenuState extends MusicBeatState

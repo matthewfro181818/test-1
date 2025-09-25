@@ -4,6 +4,11 @@ import flixel.FlxBasic;
 import flixel.util.FlxSort;
 import flixel.util.FlxDestroyUtil;
 import flixel.addons.display.FlxPieDial;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 
 typedef CutsceneEvent = {
 	var time:Float;

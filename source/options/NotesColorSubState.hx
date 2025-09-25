@@ -9,9 +9,14 @@ import lime.system.Clipboard;
 import flixel.util.FlxGradient;
 import objects.StrumNote;
 import objects.Note;
-
 import shaders.RGBPalette;
 import shaders.RGBPalette.RGBShaderReference;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
 
 class NotesColorSubState extends MusicBeatSubstate
 {

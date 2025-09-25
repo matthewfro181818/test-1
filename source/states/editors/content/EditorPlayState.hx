@@ -2,16 +2,21 @@ package states.editors.content;
 
 import backend.Song;
 import backend.Rating;
-
 import objects.Note;
 import objects.NoteSplash;
 import objects.StrumNote;
-
 import flixel.util.FlxSort;
 import flixel.util.FlxStringUtil;
 import flixel.animation.FlxAnimationController;
 import flixel.input.keyboard.FlxKey;
 import openfl.events.KeyboardEvent;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
+
 
 class EditorPlayState extends MusicBeatSubstate
 {

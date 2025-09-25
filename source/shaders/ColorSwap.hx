@@ -1,6 +1,11 @@
 package shaders;
 
 import flixel.system.FlxAssets.FlxShader;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 
 class ColorSwap {
 	public var shader(default, null):ColorSwapShader = new ColorSwapShader();

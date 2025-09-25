@@ -1,5 +1,10 @@
-#if LUA_ALLOWED
 package psychlua;
+
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+#if LUA_ALLOWED
 
 class CallbackHandler
 {

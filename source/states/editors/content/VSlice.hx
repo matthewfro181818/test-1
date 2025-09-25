@@ -2,9 +2,14 @@ package states.editors.content;
 
 import backend.Song;
 import backend.Difficulty;
-
 import flixel.math.FlxMath;
 import flixel.util.FlxSort;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
 
 // Chart
 typedef VSliceChart =

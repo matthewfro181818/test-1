@@ -1,5 +1,10 @@
 package backend.ui;
 
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 class PsychUINumericStepper extends PsychUIInputText
 {
 	public static final CHANGE_EVENT = "numericstepper_change";

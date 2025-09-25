@@ -7,31 +7,36 @@ import flixel.util.FlxSpriteUtil;
 import flixel.util.FlxStringUtil;
 import flixel.util.FlxDestroyUtil;
 import flixel.input.keyboard.FlxKey;
-
 import lime.utils.Assets;
 import lime.media.AudioBuffer;
-
 import flash.media.Sound;
 import flash.geom.Rectangle;
-
 import haxe.Json;
 import haxe.Exception;
 import haxe.io.Bytes;
-
 import states.editors.content.MetaNote;
 import states.editors.content.VSlice;
 import states.editors.content.Prompt;
 import states.editors.content.*;
-
 import backend.Song;
 import backend.StageData;
 import backend.Highscore;
 import backend.Difficulty;
-
 import objects.Character;
 import objects.HealthIcon;
 import objects.Note;
 import objects.StrumNote;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
+
+
+
+
+
 
 using DateTools;
 

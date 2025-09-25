@@ -1,5 +1,10 @@
 package backend.ui;
 
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 typedef UIStyleData = {
 	var bgColor:FlxColor;
 	var textColor:FlxColor;

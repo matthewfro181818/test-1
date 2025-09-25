@@ -3,7 +3,6 @@ package states.editors;
 import objects.Note;
 import objects.NoteSplash;
 import objects.StrumNote;
-
 import openfl.net.FileFilter;
 import flixel.group.FlxSpriteGroup.FlxTypedSpriteGroup;
 import flixel.input.keyboard.FlxKey;
@@ -11,6 +10,12 @@ import openfl.events.Event;
 import openfl.events.IOErrorEvent;
 import openfl.net.FileReference;
 import haxe.Json;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
 
 @:access(objects.NoteSplash)
 class NoteSplashEditorState extends MusicBeatState

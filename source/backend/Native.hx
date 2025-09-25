@@ -3,8 +3,13 @@ package backend;
 import lime.app.Application;
 import lime.system.Display;
 import lime.system.System;
-
 import flixel.util.FlxColor;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
 
 #if (cpp && windows)
 @:buildXml('

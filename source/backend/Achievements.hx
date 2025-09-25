@@ -1,12 +1,17 @@
 package backend;
 
-#if ACHIEVEMENTS_ALLOWED
 import objects.AchievementPopup;
 import haxe.Exception;
 import haxe.Json;
+import psychlua.FunkinLua;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+#if ACHIEVEMENTS_ALLOWED
 
 #if LUA_ALLOWED
-import psychlua.FunkinLua;
 #end
 
 typedef Achievement =

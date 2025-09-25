@@ -1,6 +1,11 @@
 package backend;
 
 import backend.ClientPrefs;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 
 class Rating
 {

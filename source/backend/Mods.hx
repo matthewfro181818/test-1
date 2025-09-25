@@ -1,8 +1,13 @@
 package backend;
 
 import openfl.utils.Assets;
-
 import haxe.Json;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
 
 typedef ModsList = {
 	enabled:Array<String>,

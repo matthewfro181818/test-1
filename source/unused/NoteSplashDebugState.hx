@@ -3,6 +3,11 @@ package unused;
 import objects.Note;
 import objects.StrumNote;
 import objects.NoteSplash;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 
 class NoteSplashDebugState extends MusicBeatState implements PsychUIEventHandler.PsychUIEvent
 {

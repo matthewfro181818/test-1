@@ -1,11 +1,16 @@
 package states.editors;
 
 import backend.WeekData;
-
 import objects.Character;
-
 import states.MainMenuState;
 import states.FreeplayState;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
+
 
 class MasterEditorMenu extends MusicBeatState
 {

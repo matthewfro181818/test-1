@@ -1,5 +1,10 @@
 package options;
 
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 class GameplaySettingsSubState extends BaseOptionsMenu
 {
 	public function new()

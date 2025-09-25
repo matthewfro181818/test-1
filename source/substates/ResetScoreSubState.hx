@@ -2,9 +2,14 @@ package substates;
 
 import backend.WeekData;
 import backend.Highscore;
-
 import flixel.FlxSubState;
 import objects.HealthIcon;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
 
 class ResetScoreSubState extends MusicBeatSubstate
 {

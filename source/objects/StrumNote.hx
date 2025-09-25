@@ -1,9 +1,14 @@
 package objects;
 
 import backend.animation.PsychAnimationController;
-
 import shaders.RGBPalette;
 import shaders.RGBPalette.RGBShaderReference;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
 
 class StrumNote extends FlxSprite
 {

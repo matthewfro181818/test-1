@@ -5,7 +5,6 @@ import backend.StageData;
 import backend.WeekData;
 import backend.Song;
 import backend.Rating;
-
 import flixel.FlxBasic;
 import flixel.FlxObject;
 import flixel.FlxSubState;
@@ -18,41 +17,47 @@ import lime.utils.Assets;
 import openfl.utils.Assets as OpenFlAssets;
 import openfl.events.KeyboardEvent;
 import haxe.Json;
-
 import cutscenes.DialogueBoxPsych;
-
 import states.StoryMenuState;
 import states.FreeplayState;
 import states.editors.ChartingState;
 import states.editors.CharacterEditorState;
-
 import substates.PauseSubState;
 import substates.GameOverSubstate;
-
-#if !flash
 import openfl.filters.ShaderFilter;
-#end
-
 import shaders.ErrorHandledShader;
-
 import objects.VideoSprite;
 import objects.Note.EventNote;
 import objects.*;
 import states.stages.*;
 import states.stages.objects.*;
-
-#if LUA_ALLOWED
 import psychlua.*;
-#else
 import psychlua.LuaUtils;
 import psychlua.HScript;
-#end
-
-#if HSCRIPT_ALLOWED
 import psychlua.HScript.HScriptInfos;
 import crowplexus.iris.Iris;
 import crowplexus.hscript.Expr.Error as IrisError;
 import crowplexus.hscript.Printer;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
+
+
+
+
+#if !flash
+#end
+
+
+
+#if LUA_ALLOWED
+#else
+#end
+
+#if HSCRIPT_ALLOWED
 #end
 
 /**

@@ -3,13 +3,18 @@ package states.editors.content;
 import haxe.io.Path;
 import flixel.util.FlxDestroyUtil;
 import flash.net.FileFilter;
-
 import backend.StageData;
 import backend.ui.PsychUIButton;
 import backend.ui.PsychUIRadioGroup;
 import backend.ui.PsychUICheckBox;
 import backend.ui.PsychUIEventHandler;
 import states.editors.content.FileDialogHandler;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
 
 class PreloadListSubState extends MusicBeatSubstate implements PsychUIEvent
 {

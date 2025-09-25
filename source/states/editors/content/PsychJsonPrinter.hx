@@ -1,6 +1,11 @@
 package states.editors.content;
 
 import haxe.format.JsonPrinter;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 
  /**
   *  Used to print V-Slice charts and other things with a bit less characters

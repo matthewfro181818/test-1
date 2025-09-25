@@ -2,6 +2,11 @@ package backend.ui;
 
 import flixel.util.FlxDestroyUtil;
 import flixel.FlxObject;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 
 class PsychUIRadioGroup extends FlxSpriteGroup
 {

@@ -2,6 +2,11 @@ package cutscenes;
 
 import flixel.addons.text.FlxTypeText;
 import backend.Song;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
 
 class DialogueBox extends FlxSpriteGroup
 {

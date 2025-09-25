@@ -1,7 +1,6 @@
 package states.editors;
 
 import openfl.display.Sprite;
-
 import flixel.graphics.FlxGraphic;
 import flixel.system.debug.interaction.tools.Pointer.GraphicCursorCross;
 import flixel.util.FlxDestroyUtil;
@@ -12,13 +11,19 @@ import openfl.utils.Assets;
 import objects.Character;
 import objects.HealthIcon;
 import objects.Bar;
-// SWF playback support
-
 import swf.exporters.swflite.SWFLiteLibrary;
 import openfl.display.MovieClip;
-import swf.exporters.swflite.SWFLiteLibrary;
 import states.editors.content.Prompt;
 import states.editors.content.PsychJsonPrinter;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+typedef AnimateAtlas = Dynamic;
+
+
+// SWF playback support
+
 
 class CharacterEditorState extends MusicBeatState implements PsychUIEventHandler.PsychUIEvent {		
 	public var isAnimateAtlas:Bool = false;

@@ -2,9 +2,14 @@ package cutscenes;
 
 import haxe.Json;
 import openfl.utils.Assets;
-
 import objects.TypedAlphabet;
 import cutscenes.DialogueCharacter;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
 
 typedef DialogueFile = {
 	var dialogue:Array<DialogueLine>;

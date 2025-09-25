@@ -1,7 +1,13 @@
 package states.stages.objects;
 
-#if funkin.vis
 import funkin.vis.dsp.SpectralAnalyzer;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+typedef AnimateAtlas = Dynamic;
+
+#if funkin.vis
 #end
 
 class ABotSpeaker extends FlxSpriteGroup

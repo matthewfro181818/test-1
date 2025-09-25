@@ -4,18 +4,23 @@ import flixel.FlxBasic;
 import objects.Character;
 import psychlua.LuaUtils;
 import psychlua.CustomSubstate;
-
-#if LUA_ALLOWED
 import psychlua.FunkinLua;
-#end
-
-#if HSCRIPT_ALLOWED
 import crowplexus.iris.Iris;
 import crowplexus.iris.IrisConfig;
 import crowplexus.hscript.Expr.Error as IrisError;
 import crowplexus.hscript.Printer;
-
 import haxe.ValueException;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+
+#if LUA_ALLOWED
+#end
+
+#if HSCRIPT_ALLOWED
+
 
 typedef HScriptInfos = {
 	> haxe.PosInfos,

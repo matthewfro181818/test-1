@@ -1,7 +1,12 @@
 package psychlua;
 
-#if (!flash && sys)
 import flixel.addons.display.FlxRuntimeShader;
+import swf.exporters.swflite.SWFLite;
+import swf.exporters.swflite.SWFLiteLibrary;
+import swf.exporters.swflite.SpriteSymbol;
+
+
+#if (!flash && sys)
 #end
 
 class ShaderFunctions
