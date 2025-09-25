@@ -1,5 +1,11 @@
+package;
+
+#if android
 import android.content.Context;
+#end
+
 import debug.FPSCounter;
+
 import flixel.graphics.FlxGraphic;
 import flixel.FlxGame;
 import flixel.FlxState;
@@ -11,37 +17,28 @@ import openfl.events.Event;
 import openfl.display.StageScaleMode;
 import lime.app.Application;
 import states.TitleState;
-import crowplexus.iris.Iris;
-import psychlua.HScript.HScriptInfos;
-import lime.graphics.Image;
-import backend.ALSoftConfig; // Just to make sure DCE doesn't remove this, since it's not directly referenced anywhere else.
-import openfl.events.UncaughtErrorEvent;
-import haxe.CallStack;
-import backend.Highscore;
-import swf.exporters.swflite.SWFLite;
-import swf.exporters.swflite.SWFLiteLibrary;
-import swf.exporters.swflite.SpriteSymbol;
-
-package;
-
-#if android
-#end
-
-
 
 #if HSCRIPT_ALLOWED
+import crowplexus.iris.Iris;
+import psychlua.HScript.HScriptInfos;
 #end
 
 #if (linux || mac)
+import lime.graphics.Image;
 #end
 
 #if desktop
+import backend.ALSoftConfig; // Just to make sure DCE doesn't remove this, since it's not directly referenced anywhere else.
 #end
 
 //crash handler stuff
 #if CRASH_HANDLER
+import openfl.events.UncaughtErrorEvent;
+import haxe.CallStack;
+import haxe.io.Path;
 #end
 
+import backend.Highscore;
 
 // NATIVE API STUFF, YOU CAN IGNORE THIS AND SCROLL //
 #if (linux && !debug)
